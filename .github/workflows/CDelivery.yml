@@ -63,7 +63,7 @@ jobs:
       - name: Remove Old Images
         working-directory: ${{ env.app_name }}
         run: |
-          echo"hello"
+          echo "hello"
          #docker image prune -af
 
 
