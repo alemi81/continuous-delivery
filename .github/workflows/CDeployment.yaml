@@ -76,6 +76,8 @@ jobs:
           terraform workspace  select  ${{ env.environment }}   ||  terraform workspace  new  ${{ env.environment }}
 
 
+
+
       # Runs a set of commands using the runners shell
       - name: Deploy Application
         working-directory: "custom_helm_chart"
