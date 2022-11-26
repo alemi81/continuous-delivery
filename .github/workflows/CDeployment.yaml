@@ -10,7 +10,6 @@ env:
   google_domain_name: "${{ secrets.GOOGLE_DOMAIN_NAME }}"
   environment:        "dev"
 
-
 name: ContinuousDeployment
 on:
   workflow_run:
